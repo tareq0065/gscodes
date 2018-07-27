@@ -1,0 +1,88 @@
+@import '~antd/dist/antd.css';
+html {
+    min-height: 100% !important;
+    height: 100%;
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body, #root {
+    font-family: "Roboto", "Helvetica", "Arial", "sans-serif";
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.46429em;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+body, #root {
+    min-height: 100% !important;
+    height: 100%;
+}
+
+.App {
+    position: relative;
+    min-height: 100%;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.login-container {
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.ant-layout-header {
+    background: #fff!important;
+    padding: 0!important;
+    height: 48px!important;
+    line-height: 48px!important;
+    border-bottom: 1px solid #1890ff!important;
+}
+
+.headeraffixed {
+    box-shadow: 0 1px 0 rgba(12,13,14,0.1), 0 1px 6px rgba(59,64,69,0.1);
+}
+
+.header-content {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content .ant-menu {
+    background: transparent!important;
+}
+
+.header-content .ant-menu-horizontal {
+    border: none!important;
+}
+
+.content {
+    padding: 50px;
+    display: flex;
+    min-height: 100vh;
+}
+
+.login-form {
+    max-width: 100%;
+}
+.login-form-forgot {
+    float: right;
+}
+.login-form-button {
+    width: 100%;
+}
